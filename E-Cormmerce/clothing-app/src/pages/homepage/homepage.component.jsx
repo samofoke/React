@@ -1,40 +1,10 @@
 import React from 'react';
 import './homepage.style.scss';
+import Direct from '../../components/directory/direct.component';
 
 const HomePage = () => (
     <div className='homepage'>
-        <div className='direct-menu'>
-            <div className='menu-item'>
-                <div className='content'>
-                    <h1 className='title'>HATS</h1>
-                    <span className='subtitle'>Shop Now</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <h1 className='title'>JACKETS</h1>
-                    <span className='subtitle'>Shop Now</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <h1 className='title'>SNEAKERS</h1>
-                    <span className='subtitle'>Shop Now</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <h1 className='title'>WOMENS</h1>
-                    <span className='subtitle'>Shop Now</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <h1 className='title'>MENS</h1>
-                    <span className='subtitle'>Shop Now</span>
-                </div>
-            </div>
-        </div>
+      <Direct />
     </div>
 );
 
